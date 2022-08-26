@@ -155,6 +155,8 @@ code elecom_joy.yaml
 # bringup設定
 ```
 cd ~/orne_ws/src/orne_navigation/orne_bringup/launch
+code orne_alpha.launch
+```
 ```
 <launch>
     <include file="$(find icart_mini_driver)/launch/icart_mini_drive.launch">
