@@ -1,0 +1,8 @@
+prefix=/home/ryusei/orne_ws/devel/.private/orne_navigation_executor
+
+Name: orne_navigation_executor
+Description: Description of orne_navigation_executor
+Version: 0.1.3
+Cflags: 
+Libs: -L${prefix}/lib -lorne_navigation_executor
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ryusei/orne_ws/devel/.private/orne_strategy
+
+Name: orne_strategy
+Description: Description of orne_strategy
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
