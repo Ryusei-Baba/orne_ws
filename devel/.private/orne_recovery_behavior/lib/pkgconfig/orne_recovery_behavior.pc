@@ -1,0 +1,8 @@
+prefix=/home/ryusei/orne_ws/devel/.private/orne_recovery_behavior
+
+Name: orne_recovery_behavior
+Description: Description of orne_recovery_behavior
+Version: 0.1.1
+Cflags: 
+Libs: -L${prefix}/lib -lorne_recovery_behavior
+Requires: roscpp pcl_ros pcl_conversions pcl_msgs pluginlib

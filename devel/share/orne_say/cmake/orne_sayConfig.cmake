@@ -1,0 +1,1 @@
+/home/ryusei/orne_ws/devel/.private/orne_say/share/orne_say/cmake/orne_sayConfig.cmake

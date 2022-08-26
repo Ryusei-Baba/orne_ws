@@ -1,0 +1,1 @@
+/home/ryusei/orne_ws/devel/.private/orne_strategy/share/orne_strategy/cmake/orne_strategyConfig.cmake

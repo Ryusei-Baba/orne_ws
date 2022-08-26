@@ -1,0 +1,8 @@
+prefix=/home/ryusei/orne_ws/devel/.private/fulanghua_ekf_2d
+
+Name: fulanghua_ekf_2d
+Description: Description of fulanghua_ekf_2d
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
