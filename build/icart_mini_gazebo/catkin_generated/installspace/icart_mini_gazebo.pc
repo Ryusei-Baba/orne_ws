@@ -1,0 +1,8 @@
+prefix=/home/ryusei/orne_ws/install
+
+Name: icart_mini_gazebo
+Description: Description of icart_mini_gazebo
+Version: 0.1.3
+Cflags: 
+Libs: -L${prefix}/lib -lgazebo
+Requires: roscpp gazebo_ros controller_manager pluginlib transmission_interface gazebo_ros_control

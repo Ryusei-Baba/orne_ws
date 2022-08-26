@@ -1,0 +1,8 @@
+prefix=/home/ryusei/orne_ws/install
+
+Name: orne_description
+Description: Description of orne_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ryusei/orne_ws/install
+
+Name: fulanghua_srvs
+Description: Description of fulanghua_srvs
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

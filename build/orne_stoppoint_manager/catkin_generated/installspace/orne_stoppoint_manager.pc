@@ -1,0 +1,8 @@
+prefix=/home/ryusei/orne_ws/install
+
+Name: orne_stoppoint_manager
+Description: Description of orne_stoppoint_manager
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lorne_stoppoint_manager
+Requires: roscpp tf

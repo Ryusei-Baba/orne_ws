@@ -1,0 +1,8 @@
+prefix=/home/ryusei/orne_ws/install
+
+Name: fulanghua_waypoints_nav
+Description: Description of fulanghua_waypoints_nav
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib -lfulanghua_waypoints_nav
+Requires: 

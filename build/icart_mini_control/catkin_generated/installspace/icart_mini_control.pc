@@ -1,0 +1,8 @@
+prefix=/home/ryusei/orne_ws/install
+
+Name: icart_mini_control
+Description: Description of icart_mini_control
+Version: 0.1.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

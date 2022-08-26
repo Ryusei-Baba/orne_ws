@@ -1,0 +1,1 @@
+cmd='<SOURCE_DIR>/configure;--prefix=/home/ryusei/orne_ws/devel'
