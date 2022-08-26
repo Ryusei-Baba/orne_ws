@@ -1,0 +1,4 @@
+Symlinking /home/ryusei/orne_ws/devel/lib/orne_stoppoint_manager/orne_stoppoint_sender
+Symlinking /home/ryusei/orne_ws/devel/lib/pkgconfig/orne_stoppoint_manager.pc
+Symlinking /home/ryusei/orne_ws/devel/share/orne_stoppoint_manager/cmake/orne_stoppoint_managerConfig-version.cmake
+Symlinking /home/ryusei/orne_ws/devel/share/orne_stoppoint_manager/cmake/orne_stoppoint_managerConfig.cmake

@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target simple_lead_out[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_lead_out.dir/src/simple_lead_out.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/ryusei/orne_ws/devel/.private/orne_recovery_behavior/lib/libsimple_lead_out.so[0m
+[100%] Built target simple_lead_out

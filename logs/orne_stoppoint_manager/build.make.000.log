@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target orne_stoppoint_sender[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/orne_stoppoint_sender.dir/src/stoppoint_sender.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ryusei/orne_ws/devel/.private/orne_stoppoint_manager/lib/orne_stoppoint_manager/orne_stoppoint_sender[0m
+[100%] Built target orne_stoppoint_sender

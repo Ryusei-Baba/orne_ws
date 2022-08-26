@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target icart_mini_driver_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/icart_mini_driver_node.dir/src/icart_mini_driver_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ryusei/orne_ws/devel/.private/icart_mini_driver/lib/icart_mini_driver/icart_mini_driver_node[0m
+[100%] Built target icart_mini_driver_node

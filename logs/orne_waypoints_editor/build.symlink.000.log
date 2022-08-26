@@ -1,0 +1,5 @@
+Symlinking /home/ryusei/orne_ws/devel/lib/pkgconfig/orne_waypoints_editor.pc
+Symlinking /home/ryusei/orne_ws/devel/lib/orne_waypoints_editor/orne_suspends_editor
+Symlinking /home/ryusei/orne_ws/devel/lib/orne_waypoints_editor/orne_waypoints_editor
+Symlinking /home/ryusei/orne_ws/devel/share/orne_waypoints_editor/cmake/orne_waypoints_editorConfig.cmake
+Symlinking /home/ryusei/orne_ws/devel/share/orne_waypoints_editor/cmake/orne_waypoints_editorConfig-version.cmake

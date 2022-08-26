@@ -1,0 +1,4 @@
+[01m[K/home/ryusei/orne_ws/src/orne_navigation/orne_say/src/orne_say.cpp:[m[K In member function ‘[01m[Kvoid OrneSay::TfCallback(const TFMessage&)[m[K’:
+[01m[K/home/ryusei/orne_ws/src/orne_navigation/orne_say/src/orne_say.cpp:62:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   62 |    char *command = [01;35m[K"aplay ~/catkin_ws/src/orne_navigation/orne_say/sound/pekowave1.wav"[m[K;
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

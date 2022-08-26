@@ -1,0 +1,469 @@
+[35m[1mScanning dependencies of target ypspur[0m
+[ 12%] [34m[1mCreating directories for 'ypspur'[0m
+[ 25%] [34m[1mNo download step for 'ypspur'[0m
+[ 37%] [34m[1mNo patch step for 'ypspur'[0m
+[ 50%] [34m[1mNo update step for 'ypspur'[0m
+[ 62%] [34m[1mPerforming configure step for 'ypspur'[0m
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for pkg-config... pkg-config
+checking for ssm-coordinator... no
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking ssm.h usability... no
+checking ssm.h presence... no
+checking for ssm.h... no
+configure: WARNING: ********** w/o SSM **********
+checking for sh-coff-gcc... no
+checking for sh-hitachi-coff-gcc... no
+checking for sh-coff-ar... no
+checking for sh-hitachi-coff-ar... no
+checking for sh-coff-objcopy... no
+checking for sh-hitachi-coff-objcopy... no
+checking for sh-elf-gcc... no
+checking for sh-hitachi-elf-gcc... no
+checking for sh-elf-ar... no
+checking for sh-hitachi-elf-ar... no
+checking for sh-elf-objcopy... no
+checking for sh-hitachi-elf-objcopy... no
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking sys/termios.h usability... yes
+checking sys/termios.h presence... yes
+checking for sys/termios.h... yes
+checking for unistd.h... (cached) yes
+checking sys/msg.h usability... yes
+checking sys/msg.h presence... yes
+checking for sys/msg.h... yes
+checking for clock_nanosleep  in -lrt... yes
+checking for an ANSI C-conforming const... yes
+checking for working volatile... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for working strtod... yes
+checking for nanosleep... yes
+checking for siglongjmp... yes
+checking for longjmp... yes
+checking for getline... yes
+checking for fork... yes
+checking for strtok_r... yes
+checking for tputs in -ltermcap... no
+checking for readline in -lreadline... no
+checking for pow in -lm... yes
+checking for pthread_create in -lpthread... yes
+checking for main in -lws2_32... no
+checking POSIX termios... yes
+checking for cp... cp
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating include/Makefile
+config.status: creating auxlib/Makefile
+config.status: creating src/Makefile
+config.status: creating target-sh/Makefile
+config.status: creating samples/Makefile
+config.status: creating include/config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+=== configuring in auxlib/formula-calc (/home/ryusei/orne_ws/build/ypspur/ypspur/src/ypspur-build/auxlib/formula-calc)
+configure: running /bin/bash /home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/configure --disable-option-checking '--prefix=/home/ryusei/orne_ws/devel'  --cache-file=/dev/null --srcdir=/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for working strtod... yes
+checking for pow in -lm... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+[ 75%] [34m[1mPerforming build step for 'ypspur'[0m
+Making all in include
+Making all in auxlib
+Making all in formula-calc
+Making all in src
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libformula_calc_la-libformula-calc.lo -MD -MP -MF .deps/libformula_calc_la-libformula-calc.Tpo -c /home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src/libformula-calc.c  -fPIC -DPIC -o .libs/libformula_calc_la-libformula-calc.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libformula_calc_la-libformula-calc.lo -MD -MP -MF .deps/libformula_calc_la-libformula-calc.Tpo -c /home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src/libformula-calc.c -o libformula_calc_la-libformula-calc.o >/dev/null 2>&1
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libformula_calc_la-libformula-calc.o   -lm  -O2   -Wl,-soname -Wl,libformula-calc.so.0 -o .libs/libformula-calc.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libformula-calc.so.0" && ln -s "libformula-calc.so.0.0.0" "libformula-calc.so.0")
+libtool: link: (cd ".libs" && rm -f "libformula-calc.so" && ln -s "libformula-calc.so.0.0.0" "libformula-calc.so")
+libtool: link: ar cru .libs/libformula-calc.a  libformula_calc_la-libformula-calc.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libformula-calc.a
+libtool: link: ( cd ".libs" && rm -f "libformula-calc.la" && ln -s "../libformula-calc.la" "libformula-calc.la" )
+libtool: link: gcc -Wall -g -O2 -o .libs/formula-test formula-test.o  ./.libs/libformula-calc.so -lm -Wl,-rpath -Wl,/home/ryusei/orne_ws/devel/lib
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/auxlib -I../include -I/home/ryusei/orne_ws/src/ypspur/auxlib -Wall -Werror -g -O2 -MT libcarte2d_la-libcarte2d.lo -MD -MP -MF .deps/libcarte2d_la-libcarte2d.Tpo -c /home/ryusei/orne_ws/src/ypspur/auxlib/libcarte2d.c  -fPIC -DPIC -o .libs/libcarte2d_la-libcarte2d.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/auxlib -I../include -I/home/ryusei/orne_ws/src/ypspur/auxlib -Wall -Werror -g -O2 -MT libcarte2d_la-libcarte2d.lo -MD -MP -MF .deps/libcarte2d_la-libcarte2d.Tpo -c /home/ryusei/orne_ws/src/ypspur/auxlib/libcarte2d.c -o libcarte2d_la-libcarte2d.o >/dev/null 2>&1
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libcarte2d_la-libcarte2d.o   -lpthread -lm -lrt  -O2   -Wl,-soname -Wl,libcarte2d.so.0 -o .libs/libcarte2d.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libcarte2d.so.0" && ln -s "libcarte2d.so.0.0.0" "libcarte2d.so.0")
+libtool: link: (cd ".libs" && rm -f "libcarte2d.so" && ln -s "libcarte2d.so.0.0.0" "libcarte2d.so")
+libtool: link: ar cru .libs/libcarte2d.a  libcarte2d_la-libcarte2d.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libcarte2d.a
+libtool: link: ( cd ".libs" && rm -f "libcarte2d.la" && ln -s "../libcarte2d.la" "libcarte2d.la" )
+Making all in src
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_la-libypspur.lo -MD -MP -MF .deps/libypspur_la-libypspur.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/libypspur.c  -fPIC -DPIC -o .libs/libypspur_la-libypspur.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_la-libypspur.lo -MD -MP -MF .deps/libypspur_la-libypspur.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/libypspur.c -o libypspur_la-libypspur.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_la-libypspur-md.lo -MD -MP -MF .deps/libypspur_la-libypspur-md.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/libypspur-md.c  -fPIC -DPIC -o .libs/libypspur_la-libypspur-md.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_la-libypspur-md.lo -MD -MP -MF .deps/libypspur_la-libypspur-md.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/libypspur-md.c -o libypspur_la-libypspur-md.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_la-ipcommunication.lo -MD -MP -MF .deps/libypspur_la-ipcommunication.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/ipcommunication.c  -fPIC -DPIC -o .libs/libypspur_la-ipcommunication.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_la-ipcommunication.lo -MD -MP -MF .deps/libypspur_la-ipcommunication.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/ipcommunication.c -o libypspur_la-ipcommunication.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_la-utility.lo -MD -MP -MF .deps/libypspur_la-utility.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/utility.c  -fPIC -DPIC -o .libs/libypspur_la-utility.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_la-utility.lo -MD -MP -MF .deps/libypspur_la-utility.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/utility.c -o libypspur_la-utility.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_la-yprintf.lo -MD -MP -MF .deps/libypspur_la-yprintf.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/yprintf.c  -fPIC -DPIC -o .libs/libypspur_la-yprintf.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_la-yprintf.lo -MD -MP -MF .deps/libypspur_la-yprintf.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/yprintf.c -o libypspur_la-yprintf.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_la-msq.win32.lo -MD -MP -MF .deps/libypspur_la-msq.win32.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/msq.win32.c  -fPIC -DPIC -o .libs/libypspur_la-msq.win32.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_la-msq.win32.lo -MD -MP -MF .deps/libypspur_la-msq.win32.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/msq.win32.c -o libypspur_la-msq.win32.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_md_la-libypspur-md.lo -MD -MP -MF .deps/libypspur_md_la-libypspur-md.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/libypspur-md.c  -fPIC -DPIC -o .libs/libypspur_md_la-libypspur-md.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_md_la-libypspur-md.lo -MD -MP -MF .deps/libypspur_md_la-libypspur-md.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/libypspur-md.c -o libypspur_md_la-libypspur-md.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_md_la-ipcommunication.lo -MD -MP -MF .deps/libypspur_md_la-ipcommunication.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/ipcommunication.c  -fPIC -DPIC -o .libs/libypspur_md_la-ipcommunication.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_md_la-ipcommunication.lo -MD -MP -MF .deps/libypspur_md_la-ipcommunication.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/ipcommunication.c -o libypspur_md_la-ipcommunication.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_md_la-utility.lo -MD -MP -MF .deps/libypspur_md_la-utility.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/utility.c  -fPIC -DPIC -o .libs/libypspur_md_la-utility.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_md_la-utility.lo -MD -MP -MF .deps/libypspur_md_la-utility.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/utility.c -o libypspur_md_la-utility.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_md_la-yprintf.lo -MD -MP -MF .deps/libypspur_md_la-yprintf.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/yprintf.c  -fPIC -DPIC -o .libs/libypspur_md_la-yprintf.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_md_la-msq.win32.lo -MD -MP -MF .deps/libypspur_md_la-msq.win32.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/msq.win32.c  -fPIC -DPIC -o .libs/libypspur_md_la-msq.win32.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_md_la-yprintf.lo -MD -MP -MF .deps/libypspur_md_la-yprintf.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/yprintf.c -o libypspur_md_la-yprintf.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/ryusei/orne_ws/src/ypspur/src -I../include -I/home/ryusei/orne_ws/src/ypspur/include -I/home/ryusei/orne_ws/src/ypspur/auxlib -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -Wall -Werror -g -O2 -MT libypspur_md_la-msq.win32.lo -MD -MP -MF .deps/libypspur_md_la-msq.win32.Tpo -c /home/ryusei/orne_ws/src/ypspur/src/msq.win32.c -o libypspur_md_la-msq.win32.o >/dev/null 2>&1
+[01m[K/home/ryusei/orne_ws/src/ypspur/src/param.c:[m[K In function ‘[01m[Kset_param[m[K’:
+[01m[K/home/ryusei/orne_ws/src/ypspur/src/param.c:817:31:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ may write a terminating nul past the end of the destination [[01;35m[K-Wformat-overflow=[m[K]
+  817 |     sprintf( file_name, "%s/%s[01;35m[K"[m[K, dir_name, filename );
+      |                               [01;35m[K^[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/ryusei/orne_ws/src/ypspur/src/param.c:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:36:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output 2 or more bytes (assuming 257) into a destination of size 256
+   36 |   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   37 | [01;36m[K      __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/string.h:495[m[K,
+                 from [01m[K/home/ryusei/orne_ws/src/ypspur/src/ypspur-free.c:4[m[K:
+In function ‘[01m[Kstrncpy[m[K’,
+    inlined from ‘[01m[Kmain[m[K’ at [01m[K/home/ryusei/orne_ws/src/ypspur/src/ypspur-free.c:22:3[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncpy[m[K’ specified bound 64 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+  106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ryusei/orne_ws/src/ypspur/src/ypspur-interpreter.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/ryusei/orne_ws/src/ypspur/src/ypspur-interpreter.c:592:4:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kgetline[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+  592 |    [01;35m[Kgetline( &line, &len, stdin )[m[K;
+      |    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/string.h:495[m[K,
+                 from [01m[K/home/ryusei/orne_ws/src/ypspur/src/ypspur-interpreter.c:4[m[K:
+In function ‘[01m[Kstrncpy[m[K’,
+    inlined from ‘[01m[Kmain[m[K’ at [01m[K/home/ryusei/orne_ws/src/ypspur/src/ypspur-interpreter.c:463:4[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncpy[m[K’ specified bound 64 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+  106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libypspur_la-libypspur.o .libs/libypspur_la-libypspur-md.o .libs/libypspur_la-ipcommunication.o .libs/libypspur_la-utility.o .libs/libypspur_la-yprintf.o .libs/libypspur_la-msq.win32.o   -lpthread -lm -lrt  -O2   -Wl,-soname -Wl,libypspur.so.14 -o .libs/libypspur.so.14.1.4
+libtool: link: (cd ".libs" && rm -f "libypspur.so.14" && ln -s "libypspur.so.14.1.4" "libypspur.so.14")
+libtool: link: (cd ".libs" && rm -f "libypspur.so" && ln -s "libypspur.so.14.1.4" "libypspur.so")
+libtool: link: ar cru .libs/libypspur.a  libypspur_la-libypspur.o libypspur_la-libypspur-md.o libypspur_la-ipcommunication.o libypspur_la-utility.o libypspur_la-yprintf.o libypspur_la-msq.win32.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libypspur.a
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libypspur_md_la-libypspur-md.o .libs/libypspur_md_la-ipcommunication.o .libs/libypspur_md_la-utility.o .libs/libypspur_md_la-yprintf.o .libs/libypspur_md_la-msq.win32.o   -lpthread -lm -lrt  -O2   -Wl,-soname -Wl,libypspur-md.so.14 -o .libs/libypspur-md.so.14.1.4
+libtool: link: ( cd ".libs" && rm -f "libypspur.la" && ln -s "../libypspur.la" "libypspur.la" )
+libtool: link: (cd ".libs" && rm -f "libypspur-md.so.14" && ln -s "libypspur-md.so.14.1.4" "libypspur-md.so.14")
+libtool: link: (cd ".libs" && rm -f "libypspur-md.so" && ln -s "libypspur-md.so.14.1.4" "libypspur-md.so")
+libtool: link: ar cru .libs/libypspur-md.a  libypspur_md_la-libypspur-md.o libypspur_md_la-ipcommunication.o libypspur_md_la-utility.o libypspur_md_la-yprintf.o libypspur_md_la-msq.win32.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libypspur-md.a
+libtool: link: ( cd ".libs" && rm -f "libypspur-md.la" && ln -s "../libypspur-md.la" "libypspur-md.la" )
+libtool: link: gcc -Wall -I/home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src -g -O2 -o .libs/ypspur-coordinator ypspur_coordinator-ypspur-coordinator.o ypspur_coordinator-control_vehicle.o ypspur_coordinator-control_motion.o ypspur_coordinator-param.o ypspur_coordinator-ipcommunication.o ypspur_coordinator-msq.win32.o ypspur_coordinator-command_ad.o ypspur_coordinator-yprintf.o ypspur_coordinator-command.o ypspur_coordinator-command_param.o ypspur_coordinator-command_set.o ypspur_coordinator-command_run.o ypspur_coordinator-command_get.o ypspur_coordinator-serial.o ypspur_coordinator-ypprotocol.o ypspur_coordinator-odometry.o ypspur_coordinator-utility.o ypspur_coordinator-ssm_spur_handler.o ypspur_coordinator-communication.o ypspur_coordinator-adinput.o  ./.libs/libypspur.so ../auxlib/.libs/libcarte2d.so ../auxlib/formula-calc/src/.libs/libformula-calc.so -lpthread -lm -lrt -Wl,-rpath -Wl,/home/ryusei/orne_ws/devel/lib
+libtool: link: gcc -Wall -g -O2 -o .libs/ypspur-free ypspur-free.o utility.o  ./.libs/libypspur.so -lpthread -lm -lrt -Wl,-rpath -Wl,/home/ryusei/orne_ws/devel/lib
+libtool: link: gcc -Wall -g -O2 -o .libs/ypspur-interpreter ypspur-interpreter.o utility.o  ./.libs/libypspur.so -lpthread -lm -lrt -Wl,-rpath -Wl,/home/ryusei/orne_ws/devel/lib
+Making all in target-sh
+Making all in samples
+libtool: link: gcc -Wall -g -O2 -o .libs/run-test run-test.o  ../src/.libs/libypspur.so -lpthread -lm -lrt -Wl,-rpath -Wl,/home/ryusei/orne_ws/devel/lib
+libtool: link: gcc -Wall -g -O2 -o .libs/cartesian2d-test cartesian2d-test.o  ../auxlib/.libs/libcarte2d.so -lpthread -lm -lrt -Wl,-rpath -Wl,/home/ryusei/orne_ws/devel/lib
+libtool: link: gcc -Wall -g -O2 -o .libs/MOI-estimate MOI-estimate.o  ../src/.libs/libypspur.so -lpthread -lm -lrt -Wl,-rpath -Wl,/home/ryusei/orne_ws/devel/lib
+[ 87%] [34m[1mPerforming install step for 'ypspur'[0m
+Making install in include
+ /usr/bin/mkdir -p '/home/ryusei/orne_ws/devel/include'
+ /usr/bin/install -c -m 644 /home/ryusei/orne_ws/src/ypspur/include/ypspur.h /home/ryusei/orne_ws/src/ypspur/include/ypspur-md.h /home/ryusei/orne_ws/src/ypspur/include/ypparam.h '/home/ryusei/orne_ws/devel/include'
+ /usr/bin/mkdir -p '/home/ryusei/orne_ws/devel/include'
+ /usr/bin/mkdir -p '/home/ryusei/orne_ws/devel/include/ssmtype'
+ /usr/bin/install -c -m 644  /home/ryusei/orne_ws/src/ypspur/include/ssmtype/pws-motor.h /home/ryusei/orne_ws/src/ypspur/include/ssmtype/spur-odometry.h /home/ryusei/orne_ws/src/ypspur/include/ssmtype/ypspur-ad.h '/home/ryusei/orne_ws/devel/include/ssmtype'
+Making install in auxlib
+Making install in formula-calc
+Making install in src
+ /usr/bin/mkdir -p '/home/ryusei/orne_ws/devel/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libformula-calc.la '/home/ryusei/orne_ws/devel/lib'
+libtool: install: /usr/bin/install -c .libs/libformula-calc.so.0.0.0 /home/ryusei/orne_ws/devel/lib/libformula-calc.so.0.0.0
+libtool: install: (cd /home/ryusei/orne_ws/devel/lib && { ln -s -f libformula-calc.so.0.0.0 libformula-calc.so.0 || { rm -f libformula-calc.so.0 && ln -s libformula-calc.so.0.0.0 libformula-calc.so.0; }; })
+libtool: install: (cd /home/ryusei/orne_ws/devel/lib && { ln -s -f libformula-calc.so.0.0.0 libformula-calc.so || { rm -f libformula-calc.so && ln -s libformula-calc.so.0.0.0 libformula-calc.so; }; })
+libtool: install: /usr/bin/install -c .libs/libformula-calc.lai /home/ryusei/orne_ws/devel/lib/libformula-calc.la
+libtool: install: /usr/bin/install -c .libs/libformula-calc.a /home/ryusei/orne_ws/devel/lib/libformula-calc.a
+libtool: install: chmod 644 /home/ryusei/orne_ws/devel/lib/libformula-calc.a
+libtool: install: ranlib /home/ryusei/orne_ws/devel/lib/libformula-calc.a
+libtool: finish: PATH="/opt/ros/noetic/bin:/home/ryusei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/sbin" ldconfig -n /home/ryusei/orne_ws/devel/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/ryusei/orne_ws/devel/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/home/ryusei/orne_ws/devel/include'
+ /usr/bin/install -c -m 644 /home/ryusei/orne_ws/src/ypspur/auxlib/formula-calc/src/formula-calc.h '/home/ryusei/orne_ws/devel/include'
+ /usr/bin/mkdir -p '/home/ryusei/orne_ws/devel/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libcarte2d.la '/home/ryusei/orne_ws/devel/lib'
+libtool: install: /usr/bin/install -c .libs/libcarte2d.so.0.0.0 /home/ryusei/orne_ws/devel/lib/libcarte2d.so.0.0.0
+libtool: install: (cd /home/ryusei/orne_ws/devel/lib && { ln -s -f libcarte2d.so.0.0.0 libcarte2d.so.0 || { rm -f libcarte2d.so.0 && ln -s libcarte2d.so.0.0.0 libcarte2d.so.0; }; })
+libtool: install: (cd /home/ryusei/orne_ws/devel/lib && { ln -s -f libcarte2d.so.0.0.0 libcarte2d.so || { rm -f libcarte2d.so && ln -s libcarte2d.so.0.0.0 libcarte2d.so; }; })
+libtool: install: /usr/bin/install -c .libs/libcarte2d.lai /home/ryusei/orne_ws/devel/lib/libcarte2d.la
+libtool: install: /usr/bin/install -c .libs/libcarte2d.a /home/ryusei/orne_ws/devel/lib/libcarte2d.a
+libtool: install: chmod 644 /home/ryusei/orne_ws/devel/lib/libcarte2d.a
+libtool: install: ranlib /home/ryusei/orne_ws/devel/lib/libcarte2d.a
+libtool: finish: PATH="/opt/ros/noetic/bin:/home/ryusei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/sbin" ldconfig -n /home/ryusei/orne_ws/devel/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/ryusei/orne_ws/devel/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/home/ryusei/orne_ws/devel/include'
+ /usr/bin/install -c -m 644 /home/ryusei/orne_ws/src/ypspur/auxlib/cartesian2d.h '/home/ryusei/orne_ws/devel/include'
+Making install in src
+ /usr/bin/mkdir -p '/home/ryusei/orne_ws/devel/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libypspur.la libypspur-md.la '/home/ryusei/orne_ws/devel/lib'
+libtool: install: /usr/bin/install -c .libs/libypspur.so.14.1.4 /home/ryusei/orne_ws/devel/lib/libypspur.so.14.1.4
+libtool: install: (cd /home/ryusei/orne_ws/devel/lib && { ln -s -f libypspur.so.14.1.4 libypspur.so.14 || { rm -f libypspur.so.14 && ln -s libypspur.so.14.1.4 libypspur.so.14; }; })
+libtool: install: (cd /home/ryusei/orne_ws/devel/lib && { ln -s -f libypspur.so.14.1.4 libypspur.so || { rm -f libypspur.so && ln -s libypspur.so.14.1.4 libypspur.so; }; })
+libtool: install: /usr/bin/install -c .libs/libypspur.lai /home/ryusei/orne_ws/devel/lib/libypspur.la
+libtool: install: /usr/bin/install -c .libs/libypspur-md.so.14.1.4 /home/ryusei/orne_ws/devel/lib/libypspur-md.so.14.1.4
+libtool: install: (cd /home/ryusei/orne_ws/devel/lib && { ln -s -f libypspur-md.so.14.1.4 libypspur-md.so.14 || { rm -f libypspur-md.so.14 && ln -s libypspur-md.so.14.1.4 libypspur-md.so.14; }; })
+libtool: install: (cd /home/ryusei/orne_ws/devel/lib && { ln -s -f libypspur-md.so.14.1.4 libypspur-md.so || { rm -f libypspur-md.so && ln -s libypspur-md.so.14.1.4 libypspur-md.so; }; })
+libtool: install: /usr/bin/install -c .libs/libypspur-md.lai /home/ryusei/orne_ws/devel/lib/libypspur-md.la
+libtool: install: /usr/bin/install -c .libs/libypspur.a /home/ryusei/orne_ws/devel/lib/libypspur.a
+libtool: install: chmod 644 /home/ryusei/orne_ws/devel/lib/libypspur.a
+libtool: install: ranlib /home/ryusei/orne_ws/devel/lib/libypspur.a
+libtool: install: /usr/bin/install -c .libs/libypspur-md.a /home/ryusei/orne_ws/devel/lib/libypspur-md.a
+libtool: install: chmod 644 /home/ryusei/orne_ws/devel/lib/libypspur-md.a
+libtool: install: ranlib /home/ryusei/orne_ws/devel/lib/libypspur-md.a
+libtool: finish: PATH="/opt/ros/noetic/bin:/home/ryusei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/sbin" ldconfig -n /home/ryusei/orne_ws/devel/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/ryusei/orne_ws/devel/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/home/ryusei/orne_ws/devel/bin'
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c ypspur-coordinator ypspur-free ypspur-interpreter ypspur-interpreter '/home/ryusei/orne_ws/devel/bin'
+libtool: install: /usr/bin/install -c .libs/ypspur-coordinator /home/ryusei/orne_ws/devel/bin/ypspur-coordinator
+libtool: install: /usr/bin/install -c .libs/ypspur-free /home/ryusei/orne_ws/devel/bin/ypspur-free
+libtool: install: /usr/bin/install -c .libs/ypspur-interpreter /home/ryusei/orne_ws/devel/bin/ypspur-interpreter
+libtool: install: /usr/bin/install -c .libs/ypspur-interpreter /home/ryusei/orne_ws/devel/bin/ypspur-interpreter
+Making install in target-sh
+Making install in samples
+[100%] [34m[1mCompleted 'ypspur'[0m
+[100%] Built target ypspur

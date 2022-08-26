@@ -1,0 +1,4 @@
+Symlinking /home/ryusei/orne_ws/devel/lib/icart_mini_driver/icart_mini_driver_node
+Symlinking /home/ryusei/orne_ws/devel/lib/pkgconfig/icart_mini_driver.pc
+Symlinking /home/ryusei/orne_ws/devel/share/icart_mini_driver/cmake/icart_mini_driverConfig.cmake
+Symlinking /home/ryusei/orne_ws/devel/share/icart_mini_driver/cmake/icart_mini_driverConfig-version.cmake

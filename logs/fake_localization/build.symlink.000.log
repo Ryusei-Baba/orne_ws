@@ -1,0 +1,4 @@
+Symlinking /home/ryusei/orne_ws/devel/lib/fake_localization/fake_localization
+Symlinking /home/ryusei/orne_ws/devel/lib/pkgconfig/fake_localization.pc
+Symlinking /home/ryusei/orne_ws/devel/share/fake_localization/cmake/fake_localizationConfig.cmake
+Symlinking /home/ryusei/orne_ws/devel/share/fake_localization/cmake/fake_localizationConfig-version.cmake
