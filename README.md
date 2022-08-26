@@ -109,3 +109,42 @@ rosrun map_server map_saver -f 地図の名前(pathの指定)
 PCの設定を開き有線接続の設定を行う．   
 ・Identityの名前をhokuyo   
 ・IPv4を手動にし，アドレス192.168.1.100, ネットマスク255.255.255.0, ゲートウェイ192.168.1.1と設定する.
+
+launchファイル
+```
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="scan_topic"	        default="/scan"/>
+  <arg name="scan_frame"          default="/hokuyo_link"/>
+  <arg name="model"               default="$(find xacro)/xacro.py '$(find icart_mini_description)/urdf/icart_mini.xacro'"/>
+  <arg name="ypspur_params"       default="/usr/local/share/robot-params/icart-mini.param"/>
+  <arg name="use_eth_urg"         default="true"/>
+  <arg name="urg_ip"              default="192.168.1.102" if="$(arg use_eth_urg)"/>
+  <arg name="scan_dev"            default="/dev/sensors/hokuyo_urg" unless="$(arg use_eth_urg)"/>
+
+  <node name="ypspur_coordinator_bridge" pkg="icart_mini_driver" type="ypspur_coordinator_bridge" args="$(arg ypspur_params)" output="screen"/>
+
+  <param name="robot_description" command="$(arg model)" />
+
+  <node pkg="urg_node" type="urg_node" name="urg_node">
+    <remap from="/scan" to="$(arg scan_topic)"/>
+    <param name="frame_id" value="$(arg scan_frame)"/>
+    <param name="ip_address"  value="$(arg urg_ip)" if="$(arg use_eth_urg)"/>
+    <param name="serial_port" value="$(arg scan_dev)" unless="$(arg use_eth_urg)"/>
+    <param name="publish_multiecho" value="false"/>
+    <param name="angle_min" value="-1.57"/>
+    <param name="angle_max" value="1.57"/>
+  </node>
+
+  <node name="icart_mini_driver_node" pkg="icart_mini_driver" output="screen" type="icart_mini_driver_node"/>
+  
+  <include file="$(find icart_mini_control)/launch/icart_mini_control.launch" />
+  
+</launch>
+```
+# ジョイコン操作時の速度
+```
+cd ~/orne_ws/src/icart/icart_mini_driver/config
+code elecom_joy.yaml
+```
