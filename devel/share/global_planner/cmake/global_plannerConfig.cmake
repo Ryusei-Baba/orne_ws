@@ -1,1 +1,0 @@
-/home/ryusei/orne_ws/devel/.private/global_planner/share/global_planner/cmake/global_plannerConfig.cmake
