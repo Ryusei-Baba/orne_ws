@@ -112,6 +112,10 @@ PCの設定を開き有線接続の設定を行う．
 
 launchファイル
 ```
+cd ~/orne_ws/src/icart/icart_mini_driver/launch
+code icart_mini_drive.launch
+```
+```
 <?xml version="1.0"?>
 
 <launch>
@@ -147,4 +151,38 @@ launchファイル
 ```
 cd ~/orne_ws/src/icart/icart_mini_driver/config
 code elecom_joy.yaml
+```
+# bringup設定
+```
+cd ~/orne_ws/src/orne_navigation/orne_bringup/launch
+```
+<launch>
+    <include file="$(find icart_mini_driver)/launch/icart_mini_drive.launch">
+        <arg name="model"    value="$(find xacro)/xacro '$(find orne_description)/urdf/orne_alpha.xacro'"/>
+        <!-- <arg name="scan_dev" value="/dev/sensors/hokuyo_H1110843"/> -->
+		<arg name="ypspur_params" value="/usr/local/share/robot-params/orne_x.param"/>
+    </include>
+
+
+  <node pkg="urg_node" type="urg_node" name="urg_node_0">
+    <param name="frame_id" value="hokuyo_link" />
+    <param name="serial_port" value="/dev/sensors/hokuyo_H1110843"/>
+    <param name="publish_multiecho" value="false"/>
+    <param name="angle_min" value="-1.047"/>
+    <param name="angle_max" value="1.047"/>
+    <param name="publish_intensity" value="true"/>
+  </node>
+
+<!--
+    <node pkg="cit_adis_imu" type="imu_node" name="imu_node">
+        <remap from="imu"        to="imu_data"/>
+        <param name="port_name"  value="/dev/sensors/imu"/>
+        <param name="z_axis_dir" value="1"/>
+    </node>
+ -->
+
+    <include file="$(find orne_bringup)/launch/adis16465.launch"/>
+
+    <include file="$(find orne_bringup)/launch/includes/base.launch.xml"/>
+</launch>
 ```
