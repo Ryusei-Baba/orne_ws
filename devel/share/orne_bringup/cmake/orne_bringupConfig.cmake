@@ -1,0 +1,1 @@
+/home/ryusei/orne_ws/devel/.private/orne_bringup/share/orne_bringup/cmake/orne_bringupConfig.cmake
