@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ryusei/orne_ws/devel/.private/cartographer_ros_msgs/setup.sh

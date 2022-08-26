@@ -1,0 +1,8 @@
+prefix=/home/ryusei/orne_ws/devel/.private/orne_waypoints_editor
+
+Name: orne_waypoints_editor
+Description: Description of orne_waypoints_editor
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
