@@ -1,0 +1,1 @@
+/home/ryusei/orne_ws/devel/.private/orne_stoppoint_manager/share/orne_stoppoint_manager/cmake/orne_stoppoint_managerConfig-version.cmake
