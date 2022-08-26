@@ -1,1 +1,0 @@
-/home/ryusei/orne_ws/devel/.private/icart_mini_description/share/icart_mini_description/cmake/icart_mini_descriptionConfig.cmake

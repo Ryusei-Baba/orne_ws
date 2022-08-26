@@ -1,1 +1,0 @@
-/home/ryusei/orne_ws/devel/.private/orne_description/share/orne_description/cmake/orne_descriptionConfig.cmake

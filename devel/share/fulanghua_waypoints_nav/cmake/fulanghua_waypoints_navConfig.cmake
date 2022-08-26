@@ -1,1 +1,0 @@
-/home/ryusei/orne_ws/devel/.private/fulanghua_waypoints_nav/share/fulanghua_waypoints_nav/cmake/fulanghua_waypoints_navConfig.cmake
