@@ -1,1 +1,0 @@
-/home/ryusei/orne_ws/devel/.private/fulanghua_static_path_publisher/share/fulanghua_static_path_publisher/cmake/fulanghua_static_path_publisherConfig-version.cmake

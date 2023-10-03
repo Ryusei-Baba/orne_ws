@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target path_similarity[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/path_similarity.dir/src/path_similarity.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/ryusei/orne_ws/devel/.private/fulanghua_evaluator/lib/fulanghua_evaluator/path_similarity[0m
-[100%] Built target path_similarity

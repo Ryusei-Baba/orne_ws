@@ -1,8 +1,0 @@
-prefix=/home/ryusei/orne_ws/devel/.private/adi_driver
-
-Name: adi_driver
-Description: Description of adi_driver
-Version: 1.0.2
-Cflags: -I/home/ryusei/orne_ws/src/adi_driver/include
-Libs: -L${prefix}/lib 
-Requires: roscpp sensor_msgs std_srvs

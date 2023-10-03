@@ -1,8 +1,0 @@
-prefix=/home/ryusei/orne_ws/devel/.private/fulanghua_srvs
-
-Name: fulanghua_srvs
-Description: Description of fulanghua_srvs
-Version: 0.0.1
-Cflags: -I/home/ryusei/orne_ws/devel/.private/fulanghua_srvs/include
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,1 +1,0 @@
-/home/ryusei/orne_ws/devel/.private/icart_mini_driver/lib/pkgconfig/icart_mini_driver.pc

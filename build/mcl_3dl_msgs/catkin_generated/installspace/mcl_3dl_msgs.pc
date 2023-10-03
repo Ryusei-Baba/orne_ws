@@ -1,8 +1,0 @@
-prefix=/home/ryusei/orne_ws/install
-
-Name: mcl_3dl_msgs
-Description: Description of mcl_3dl_msgs
-Version: 0.6.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime std_msgs

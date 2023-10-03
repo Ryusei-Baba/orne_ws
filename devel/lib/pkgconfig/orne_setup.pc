@@ -1,1 +1,0 @@
-/home/ryusei/orne_ws/devel/.private/orne_setup/lib/pkgconfig/orne_setup.pc

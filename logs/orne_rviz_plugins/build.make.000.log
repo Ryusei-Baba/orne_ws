@@ -1,8 +1,0 @@
-[35m[1mScanning dependencies of target orne_rviz_plugins_autogen[0m
-[ 25%] [34m[1mAutomatic MOC for target orne_rviz_plugins[0m
-[ 25%] Built target orne_rviz_plugins_autogen
-[35m[1mScanning dependencies of target orne_rviz_plugins[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/orne_rviz_plugins.dir/orne_rviz_plugins_autogen/mocs_compilation.cpp.o[0m
-[ 75%] [32mBuilding CXX object CMakeFiles/orne_rviz_plugins.dir/src/state_trigger_panel.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library /home/ryusei/orne_ws/devel/.private/orne_rviz_plugins/lib/liborne_rviz_plugins.so[0m
-[100%] Built target orne_rviz_plugins

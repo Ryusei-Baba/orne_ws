@@ -1,8 +1,0 @@
-prefix=/home/ryusei/orne_ws/install
-
-Name: orne_bringup
-Description: Description of orne_bringup
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

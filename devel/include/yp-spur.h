@@ -1,1 +1,0 @@
-/home/ryusei/orne_ws/devel/include/ypspur.h

@@ -1,1 +1,0 @@
-/home/ryusei/orne_ws/devel/.private/fulanghua_srvs/share/common-lisp/ros/fulanghua_srvs/srv/Pose.lisp

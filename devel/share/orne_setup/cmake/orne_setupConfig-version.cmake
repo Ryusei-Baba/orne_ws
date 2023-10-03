@@ -1,1 +1,0 @@
-/home/ryusei/orne_ws/devel/.private/orne_setup/share/orne_setup/cmake/orne_setupConfig-version.cmake

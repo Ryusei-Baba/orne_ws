@@ -1,8 +1,0 @@
-prefix=/home/ryusei/orne_ws/install
-
-Name: orne_say
-Description: Description of orne_say
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

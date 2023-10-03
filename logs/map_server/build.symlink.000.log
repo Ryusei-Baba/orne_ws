@@ -1,7 +1,0 @@
-Symlinking /home/ryusei/orne_ws/devel/lib/libmap_server_image_loader.so
-Symlinking /home/ryusei/orne_ws/devel/lib/map_server/rtest
-Symlinking /home/ryusei/orne_ws/devel/lib/map_server/map_server
-Symlinking /home/ryusei/orne_ws/devel/lib/map_server/map_saver
-Symlinking /home/ryusei/orne_ws/devel/lib/pkgconfig/map_server.pc
-Symlinking /home/ryusei/orne_ws/devel/share/map_server/cmake/map_serverConfig.cmake
-Symlinking /home/ryusei/orne_ws/devel/share/map_server/cmake/map_serverConfig-version.cmake

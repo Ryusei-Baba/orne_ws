@@ -1,5 +1,0 @@
-Symlinking /home/ryusei/orne_ws/devel/lib/adi_driver/adxl345_node
-Symlinking /home/ryusei/orne_ws/devel/lib/adi_driver/adis16470_node
-Symlinking /home/ryusei/orne_ws/devel/lib/pkgconfig/adi_driver.pc
-Symlinking /home/ryusei/orne_ws/devel/share/adi_driver/cmake/adi_driverConfig.cmake
-Symlinking /home/ryusei/orne_ws/devel/share/adi_driver/cmake/adi_driverConfig-version.cmake

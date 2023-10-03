@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target icart_mini_hw_sim[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/icart_mini_hw_sim.dir/src/icart_mini_hw_sim.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library /home/ryusei/orne_ws/devel/.private/icart_mini_gazebo/lib/libicart_mini_hw_sim.so[0m
-[100%] Built target icart_mini_hw_sim

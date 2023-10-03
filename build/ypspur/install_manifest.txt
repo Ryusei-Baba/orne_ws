@@ -1,2 +1,0 @@
-/home/ryusei/orne_ws/devel/share/ypspur/package.xml
-/home/ryusei/orne_ws/devel/share/ypspur/cmake/ypspurConfig.cmake

@@ -1,1 +1,0 @@
-/home/ryusei/orne_ws/devel/.private/orne_waypoints_editor/share/orne_waypoints_editor/cmake/orne_waypoints_editorConfig.cmake

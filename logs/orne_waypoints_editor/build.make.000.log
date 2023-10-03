@@ -1,8 +1,0 @@
-[35m[1mScanning dependencies of target orne_suspends_editor[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/orne_suspends_editor.dir/src/orne_suspends_editor_node.cpp.o[0m
-[35m[1mScanning dependencies of target orne_waypoints_editor[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/orne_waypoints_editor.dir/src/orne_waypoints_editor_node.cpp.o[0m
-[ 75%] [32m[1mLinking CXX executable /home/ryusei/orne_ws/devel/.private/orne_waypoints_editor/lib/orne_waypoints_editor/orne_suspends_editor[0m
-[ 75%] Built target orne_suspends_editor
-[100%] [32m[1mLinking CXX executable /home/ryusei/orne_ws/devel/.private/orne_waypoints_editor/lib/orne_waypoints_editor/orne_waypoints_editor[0m
-[100%] Built target orne_waypoints_editor
